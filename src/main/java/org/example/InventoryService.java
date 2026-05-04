@@ -1,5 +1,4 @@
 package org.example;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 public class InventoryService extends Repository {
@@ -19,11 +18,9 @@ public class InventoryService extends Repository {
         return inventory;
     }
     public Optional<Inventory> findById(String id) {
-        this.inventorys.findById(id);
         return inventorys.findById(id);
     }
     public List<Inventory> findAll() {
-        this.inventorys.findAll();
         return inventorys.findAll();
     }
 }
