@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Objects;
 
-public class Product {
+public class Product implements Identifiable {
     private String id;
     private String title;
     private int price;
