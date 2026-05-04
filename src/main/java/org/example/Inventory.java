@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Objects;
 
-public class Inventory implements Identifiable {
+public class Inventory extends Repository implements Identifiable {
     private String id;
     private String name;
     private int number;

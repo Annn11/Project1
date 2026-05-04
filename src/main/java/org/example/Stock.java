@@ -1,6 +1,6 @@
 package org.example;
 
-public class Stock {
+public class Stock implements Identifiable{
     private String id;
     Product product;
     Inventory inventory;
